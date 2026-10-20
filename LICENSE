@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Scope: This license covers Eden-authored collection tooling and documentation,
-skills/eden-skill, and skills/eden-topic-research. Third-party material in other
+skills/eden-skill, skills/eden-topic-research, and skills/wechat-ai-content. Third-party material in other
 skills directories is excluded and remains subject to its original authors'
 rights and applicable terms. See THIRD_PARTY.md; this license does not grant
 rights to third-party code, platform data, trademarks, or API services.

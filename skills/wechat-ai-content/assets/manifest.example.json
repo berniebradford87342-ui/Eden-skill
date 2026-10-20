@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "run_id": "YYYYMMDD_batch",
+  "articles": [
+    {
+      "id": "main",
+      "lane": "ai_marketing",
+      "title": "填写已审定的文章标题",
+      "author": "填写作者",
+      "digest": "填写摘要",
+      "content_html": "main.html",
+      "cover_image": "assets/main_cover.jpg",
+      "source_urls": [],
+      "show_cover_pic": 0,
+      "content_source_url": "",
+      "need_open_comment": 1,
+      "only_fans_can_comment": 0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "account_name": "填写公众号名称",
+  "audience": "从当前账号说明读取",
+  "goal": "帮助读者完成具体 AI 相关任务",
+  "article_count": 1,
+  "lanes": ["ai_marketing"],
+  "delivery_mode": "draft",
+  "visual_preferences": "按账号已有偏好",
+  "require_remote_wordcheck": true,
+  "schedule": null,
+  "product_evidence_path": null,
+  "uploader": {"kind": "existing_connector_or_cli", "configured": false}
+}

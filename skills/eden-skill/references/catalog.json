@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "repository": "https://github.com/berniebradford87342-ui/Eden-skill",
   "skills": [
     {
@@ -19,6 +19,12 @@
         "xhs-follower-growth-chart",
         "bilibili-keywords-search"
       ]
+    },
+    {
+      "name": "wechat-ai-content",
+      "role": "公众号AI内容研究、写作审校、配图排版、草稿读回与补传",
+      "status": "active",
+      "dependencies": []
     },
     {
       "name": "xiaohongshu-search",

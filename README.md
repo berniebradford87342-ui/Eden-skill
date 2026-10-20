@@ -2,7 +2,7 @@
 
 Eden 的模块化技能库：**一个总入口，按任务调用子 Skill，整个仓库统一发行版本。**
 
-当前发行：**v0.1.0** · [更新记录](CHANGELOG.md) · [技能目录](catalog.json) · [来源说明](THIRD_PARTY.md)
+当前发行：**v0.1.1** · [更新记录](CHANGELOG.md) · [技能目录](catalog.json) · [来源说明](THIRD_PARTY.md)
 
 ## 首批技能
 
@@ -20,7 +20,7 @@ Eden 的模块化技能库：**一个总入口，按任务调用子 Skill，整�
 
 ## 下载与安装
 
-本仓库为私有仓库，下载和clone需要对应GitHub权限。打开 Releases 下载版本ZIP；也可以使用仓库的 **Code → Download ZIP**。
+本仓库公开，浏览、下载和 clone 无需仓库授权。打开 [Releases](https://github.com/berniebradford87342-ui/Eden-skill/releases/latest) 下载完整安装包或单个 Skill；也可以使用 **Code → Download ZIP**。
 
 ```sh
 git clone https://github.com/berniebradford87342-ui/Eden-skill.git
@@ -69,10 +69,14 @@ python3 install.py --all --upgrade
 新增Skill放到`skills/<name>/`，补齐SKILL.md、目录条目、来源说明和必要测试。修改后运行：
 
 ```sh
-python3 release.py --set-version 0.1.1 --build
+python3 release.py --set-version 0.1.2 --build
 python3 install.py --list
 python3 skills/eden-topic-research/scripts/test_import_obsidian.py
 python3 skills/eden-topic-research/scripts/test_history_audit.py
 ```
 
 更新CHANGELOG，确认测试和文件检查通过后提交、创建对应`vX.Y.Z`标签并发布Release；每个版本生成整包及各Skill单独ZIP。仓库不自动推送或自动升级已安装Skill。
+
+## 开源许可
+
+Eden 原创总入口、选题研究 Skill、安装与发行工具采用 [MIT License](LICENSE)，允许使用、修改和再分发，保留版权及许可声明即可。第三方 Skill 保留原作者权利及来源，不因本仓库公开而自动适用 MIT；具体范围和待核实项见 [THIRD_PARTY.md](THIRD_PARTY.md)。公开代码不包含红狐 API 服务额度，也不包含私人选题库。

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "repository": "https://github.com/berniebradford87342-ui/Eden-skill",
+  "skills": [
+    {
+      "name": "eden-skill",
+      "role": "总入口",
+      "status": "active",
+      "dependencies": []
+    },
+    {
+      "name": "eden-topic-research",
+      "role": "完整选题研究、评分、历史验证与入库",
+      "status": "active",
+      "dependencies": [
+        "xiaohongshu-search",
+        "xiaohongshu-darkhorse",
+        "xhs-follower-growth-chart",
+        "bilibili-keywords-search"
+      ]
+    },
+    {
+      "name": "xiaohongshu-search",
+      "role": "小红书关键词作品",
+      "status": "active",
+      "dependencies": []
+    },
+    {
+      "name": "xiaohongshu-darkhorse",
+      "role": "小红书黑马爆文榜",
+      "status": "active",
+      "dependencies": []
+    },
+    {
+      "name": "xhs-follower-growth-chart",
+      "role": "账号涨粉日周月榜",
+      "status": "active",
+      "dependencies": []
+    },
+    {
+      "name": "bilibili-keywords-search",
+      "role": "B站关键词作品",
+      "status": "active",
+      "dependencies": []
+    },
+    {
+      "name": "xiaohongshu-similar-account",
+      "role": "相似账号重测",
+      "status": "experimental-disabled",
+      "dependencies": []
+    }
+  ]
+}

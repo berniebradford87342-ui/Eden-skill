@@ -21,7 +21,7 @@ description: Eden技能库总入口。按任务路由选题研究、小红书与
 
 仓库：https://github.com/berniebradford87342-ui/Eden-skill 。发行版本统一见仓库VERSION与GitHub Release。
 
-若子Skill缺失，先读安装时生成的`SOURCE.json`，使用其中的本地仓库位置和根目录`install.py`按需安装。路径已失效时，可以在有GitHub权限的环境下载同一发行版ZIP或clone后再安装；私有仓库不可匿名下载。不能把下载成功当作API已可用。
+若子Skill缺失，先读安装时生成的`SOURCE.json`，使用其中的本地仓库位置和根目录`install.py`按需安装。路径已失效时，可以从公开仓库下载同一发行版ZIP或clone后再安装，无需仓库授权。不能把下载成功当作API已可用。
 
 ```sh
 python3 <仓库目录>/install.py --skill eden-topic-research --target <Skills目录>

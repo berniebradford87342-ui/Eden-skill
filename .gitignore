@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+dist/
+.eden-backups/
+.eden-installed.json
+config.local.json
+选题研究/
+选题库/
